@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Seymour+One&display=swap');
+.NavBar__container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: aliceblue;
+    justify-content: space-around;
+    padding: 5px 0;
+    z-index: 100;
+    box-shadow: 5px 5px 10px #4c4c4c;
+
+}
+
+
+.search__icon{
+    font-size: 700;
+}
+.NavBar__search_container button{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+.NavBar__container input{
+    width: clamp(100px, 70vw, 200px);
+    border-radius: 10px;
+}
+.NavBar__logo{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.2rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+
+    margin: 5px 10px;
+    font-family: 'Dancing Script', cursive;
+}

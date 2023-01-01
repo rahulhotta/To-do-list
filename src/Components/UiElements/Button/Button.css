@@ -1,0 +1,32 @@
+.button__regular {
+  /* margin: 5px 20px; */
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 90px;
+  margin: 10px 5px;
+  background-color: white;
+
+  border: 2px solid black;
+  border-radius: 20px;
+
+  font-weight: 550;
+}
+
+.button__regular:hover {
+  background-color: black;
+  color: white;
+}
+
+.button__submit {
+  margin: 5px 20px;
+  padding: 5px 10px;
+
+  width: 90px;
+
+  background-color: rgb(126, 255, 126);
+
+  border: 2px solid black;
+  border-radius: 20px;
+
+  font-weight: 550;
+}
